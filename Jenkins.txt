@@ -1,0 +1,51 @@
+Jenkins:continuous integration tool and a scheduler
+
+Jenkins Installation
+
+Jenkins plugins and how to install it:
+
+Jenkins plugins are nothing but primary means of enhancing the functionality of a Jenkins environment to suit organization- or user-specific needs.
+
+webhooks in Jenkins are used to trigger the build whenever a developer commits something to the master branch
+
+Jenkins configuration: http://localhost:8080/computer/BLR2ISLP0216/configure(Show the configuration section)
+
+Manage Jenkins:
+
+Configure System---> manage paths to the various tools to use in builds, such as the JDKs, the versions of Ant and Maven, as well as security options, email servers, and other system-wide configuration details.
+
+Reload Configuration from Disk-->Jenkins stores all its system and build job configuration details as XML files which is stored in the Jenkins home directory. Here also all of the build history is stored.
+
+Manage Plugin-->Plugins can be installed, updated and removed through the Manage Plugins screen.
+
+System Information-->all the current Java system properties and system environment variables
+
+System Log-->Jenkins logs are stored
+
+Load Statistics-->This pages displays graphical data on how busy the Jenkins instance is in terms of the number of concurrent builds and the length of the build queue which gives an idea of how long your builds need to wait before being executed. These statistics can give a good idea of whether extra capacity or extra build nodes is required from an infrastructure perspective.
+Script Console
+
+Manage nodes-->Jenkins is capable of handling parallel and distributed builds
+In this section you can also check the storage, cpu etc of the nodes
+
+Prepare for Shutdown-->If there is a need to shut down Jenkins, or the server Jenkins is running on(we can use this link as it will prevent a new build to start.)
+
+
+Setup a Job: Show the job in the local you created
+
+Notification-->configure SMTP in jenkins and test the connection
+
+
+Code Analysis:
+
+The plugins can provide information such as
+
+The total number of warnings in a job
+A showing of the new and fixed warnings of a build
+Trend Reports showing the number of warnings per build
+Overview of the found warnings per module, package, category, or type
+Detailed reports of the found warnings optionally filtered by severity (or new and fixed)
+
+
+backup plugins:
+we can install backup plugins and can take backup accordingly
