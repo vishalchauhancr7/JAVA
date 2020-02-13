@@ -46,6 +46,8 @@ Trend Reports showing the number of warnings per build
 Overview of the found warnings per module, package, category, or type
 Detailed reports of the found warnings optionally filtered by severity (or new and fixed)
 
+clearcase
+
 
 backup plugins:
 we can install backup plugins and can take backup accordingly
